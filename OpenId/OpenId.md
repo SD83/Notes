@@ -58,7 +58,7 @@ There could be two types of clients
 
 These are the differences between them
 
- ![Client Types](/images/ClientTypes.JPG)
+ ![Client Types](./images/ClientTypes.JPG)
 
 There are different types of OIDC flows. These flows determine how the token is created and returned to the client. Which flow is used for OIDC depends on the type of client ( public / confidential).
 
@@ -80,7 +80,7 @@ This endpoint lives at the IDP level and can be used by the client s to get toke
 
 ##### OpenId flows
 
- ![OpenId Flows](/images/OpenIdFlows.JPG)
+ ![OpenId Flows](./images/OpenIdFlows.JPG)
 
 * OpenId Connect Authorization Code flow
 
@@ -112,7 +112,7 @@ The authorization code flow has the following steps
 - The client app redirects the user to a IDP uri. This is sample of it 
 
 
- ![RedirectURI](/images/RedirectURI.JPG)
+ ![RedirectURI](./images/RedirectURI.JPG)
 
 Following are the components of the URI
 
@@ -134,7 +134,7 @@ Steps in the flow
 8. This token is then validated. If this checks out then the used identified is extracted.
 
 
- ![Steps](/images/IdentityCodeFlow.JPG)
+ ![Steps](./images/IdentityCodeFlow.JPG)
 
 
 
