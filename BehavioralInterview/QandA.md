@@ -44,19 +44,109 @@ R : Currently we have a fully self service process where each team can build and
 
 • Tell me about a time when you had to use your presentation skills to influence someone's
 opinion.
+
+S : 
+
+T :
+
+A :
+
+R :
+
 • Give me a specific example of a time when you had to conform to a policy with which you
 did not agree.
+
+S : 
+
+T :
+
+A :
+
+R :
+
+
 • Please discuss an important written document you were required to complete.
+
+S : 
+
+T :
+
+A :
+
+R :
+
 • Tell me about a time when you had to go above and beyond the call of duty in order to
 get a job done.
+
+S : 
+
+T :
+
+A :
+
+R :
+
 • Tell me about a time when you had too many things to do and you were required to
 prioritize your tasks.
+
+S : 
+
+T :
+
+A :
+
+R :
+
 • Give me an example of a time when you had to make a split second decision.
+
+S : 
+
+T :
+
+A :
+
+R :
+
 • What is your typical way of dealing with conflict? Give me an example.
-• Tell me about a time you were able to successfully deal with another person even when
-that individual may not have personally liked you (or vice versa).
+
+S : 
+
+T :
+
+A :
+
+R :
+
+• Tell me about a time you were able to successfully deal with another person even when that individual may not have personally liked you (or vice versa).
+
+S : 
+
+T :
+
+A :
+
+R :
+
 • Tell me about a difficult decision you've made in the last year.
+
+S : 
+
+T :
+
+A :
+
+R :
+
 • Give me an example of a time when something you tried to accomplish and failed.
+
+S : 
+
+T :
+
+A :
+
+R :
+
 8. Give me an example of when you showed initiative and took the lead.
 
 S : This is a very recent scenario. As the architect in the payments domain I was included in a discussion on how we can enable digital payments for a particular business use case which is always have been handled traditionally with a paper check or draft. This business use case involved different technical systems and also other business unit like accounting and treasury. Although we had very capable individuals who were expert in there area we were not making much progress in the design.
@@ -69,12 +159,92 @@ R : With a step by step visualization of the experience each team was able to id
 
 • Tell me about a recent situation in which you had to deal with a very upset customer or
 co-worker.
+
+S : 
+
+T :
+
+A :
+
+R :
+
 • Give me an example of a time when you motivated others.
+
+S : 
+
+T :
+
+A :
+
+R :
+
 • Tell me about a time when you delegated a project effectively.
+
+S : 
+
+T :
+
+A :
+
+R :
+
 • Give me an example of a time when you used your fact-finding skills to solve a problem.
+
+S : 
+
+T :
+
+A :
+
+R :
+
 • Tell me about a time when you missed an obvious solution to a problem.
+
+S : 
+
+T :
+
+A :
+
+R :
+
 • Describe a time when you anticipated potential problems and developed preventive
 measures.
+
+S : 
+
+T :
+
+A :
+
+R :
+
 • Tell me about a time when you were forced to make an unpopular decision.
+
+S : 
+
+T :
+
+A :
+
+R :
+
 • Please tell me about a time you had to fire a friend.
+
+S : 
+
+T :
+
+A :
+
+R :
+
 • Describe a time when you set your sights too high (or too low).
+
+S : 
+
+T :
+
+A :
+
+R :
