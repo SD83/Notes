@@ -1,4 +1,4 @@
-1. Describe a situation in which you were able to use persuasion to successfully convince someone to see things your way.
+#### 1. Describe a situation in which you were able to use persuasion to successfully convince someone to see things your way.
 
 S : This is a very recent scenario. As the architect in the payment domain I was included in a discussion where we were building our first online check out experience which will involve payment in the process. Earlier you would do everything else online but you will either had to call or come in person to the store to make the payment. This was teh first experience where we wanted to take payments online. Traditionally this kind of UI would be build by a experience team as a microsite but in case of payment I wanted to try micro front end pattern which makes it easier to expose reusable enterprise capability like payment. The product management team was apprehensive about the new approach and wanted to go a more traditional route.
 
@@ -9,7 +9,7 @@ A : I partnered with our design team and created a small prototype with a very t
 R : With both the technical and delivery management team convinced I was able to pursuade the product owner to agree to be the first use case to use the micro front end.
 
 
-2. Describe a time when you were faced with a stressful situation that demonstrated your
+#### 2. Describe a time when you were faced with a stressful situation that demonstrated your
 coping skills.
 
 S : This was during the start of the pandemic. We have been working on a plan to introduce digital payments. Traditionally they were all physical checks. With the social distancing and store closure this moved quickly from a planning stage to we need it immediately. 
@@ -20,7 +20,7 @@ A : First thing I did was I marked a drop dead date by which I have to move the 
 
 R : I was able to finish the coding on time and the system went live during the may 2020. A number of initiative like curb side delivery was fueled by this. This was probably the highest moment in my career.
 
-3. Give me a specific example of a time when you used good judgment and logic in solving
+#### 3. Give me a specific example of a time when you used good judgment and logic in solving
 a problem.
 
 S : This was during a sunday when I got paged by the support team that we are seeing a flood of errors in our payment platform. The errors were due to the reason that the web app in one region was not able connect to Azure keyvault.
@@ -31,7 +31,7 @@ A : The first thing I did was to disable the faulty instance in traffic manager.
 
 R : Immidiately after scaling up I saw that the connection to keyvault was restored and the platform came back to 100  operational.
 
-4. Give me an example of a time when you set a goal and were able to meet or achieve it.
+#### 4. Give me an example of a time when you set a goal and were able to meet or achieve it.
 
 S : This scenario is during the end of 2019 and beginning of 2020. Our api management was done through Apigee Edge which is a SAAS solution. In Apigee Edge you need to write a proxy and then deploy it using the Apigee management API. To deploy you would have to provide a username and password with admin access. Traditionally the deployments were done by the admin team since the admin credential could not be shared.
 
@@ -42,7 +42,7 @@ A : I chalked out a plan to stand up a new Apigee proxy in front of the Apigee m
 R : Currently we have a fully self service process where each team can build and deploy their proxies using Azure dev ops pipeline.
 
 
-• Tell me about a time when you had to use your presentation skills to influence someone's
+#### 5 Tell me about a time when you had to use your presentation skills to influence someone's
 opinion.
 
 S : 
@@ -53,7 +53,7 @@ A :
 
 R :
 
-• Give me a specific example of a time when you had to conform to a policy with which you
+#### 6 Give me a specific example of a time when you had to conform to a policy with which you
 did not agree.
 
 S : 
@@ -65,7 +65,7 @@ A :
 R :
 
 
-• Please discuss an important written document you were required to complete.
+#### 7 Please discuss an important written document you were required to complete.
 
 S : 
 
@@ -75,7 +75,7 @@ A :
 
 R :
 
-• Tell me about a time when you had to go above and beyond the call of duty in order to
+#### 8 Tell me about a time when you had to go above and beyond the call of duty in order to
 get a job done.
 
 S : 
@@ -86,7 +86,7 @@ A :
 
 R :
 
-• Tell me about a time when you had too many things to do and you were required to
+#### 9 Tell me about a time when you had too many things to do and you were required to
 prioritize your tasks.
 
 S : 
@@ -97,7 +97,7 @@ A :
 
 R :
 
-• Give me an example of a time when you had to make a split second decision.
+#### 10 Give me an example of a time when you had to make a split second decision.
 
 S : 
 
@@ -107,7 +107,7 @@ A :
 
 R :
 
-• What is your typical way of dealing with conflict? Give me an example.
+#### 11 What is your typical way of dealing with conflict? Give me an example.
 
 S : 
 
