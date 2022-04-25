@@ -89,6 +89,7 @@ Properties of partitions
 * The number of partitions is specified at the time of creating an event hub. It must be between 1 and the maximum partition count allowed for each pricing tier.    
 
     * Basic and standard is 32 partition per event hub.
+    
 *  In general we recommend users to maintain a maximum throughput of 1 MB/s per partition and choose the partition count to match the maximum throughput you want to handle. For example, if your use case requires 20 MB/s, it is recommended to choose at least 20 partitions to achieve the optimal throughput.
 
 * You can use a partition key to map incoming event data into specific partitions for the purpose of data organization. The partition key is a sender-supplied value passed into an event hub.
