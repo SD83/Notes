@@ -25,12 +25,15 @@ curl "https://dlcdn.apache.org/kafka/3.1.1/kafka_2.13-3.1.1.tgz" -o ~/Downloads/
 
 sudo apt install openjdk-11-jre-headless
 
-bin/zookeeper-server-start.sh config/zookeeper.properties &
+    bin/zookeeper-server-start.sh config/zookeeper.properties &
 
-bin/kafka-server-start.sh config/server.properties &
+    bin/kafka-server-start.sh config/server.properties &
 
 
 bin/kafka-topics.sh --create --topic quickstart-events --bootstrap-server localhost:9092
+
+
+bin/kafka-topics.sh --create --topic quickstart-events --bootstrap-server kafkademopc.eastus.cloudapp.azure.com:9092
 
 
 bin/kafka-topics.sh --describe --topic quickstart-events --bootstrap-server kafkademopc.eastus.cloudapp.azure.com:9092
@@ -38,4 +41,9 @@ bin/kafka-topics.sh --describe --topic quickstart-events --bootstrap-server kafk
 
 bin/kafka-console-producer.sh --topic quickstart-events --bootstrap-server localhost:9092
 
+
+
+/kafka_server_jaas.conf
+
+export KAFKA_OPTS="-Djava.security.auth.login.config=/home/kafka/kafka/config/kafka_server_jaas.conf"
 
