@@ -64,6 +64,27 @@ kubectl expose pod hello-nginx --type=LoadBalancer --port=8080 --target-port=80
 
 A Pod is the basic execution unit of a Kubernetes application- the smallest and simplest unit in the Kubernetes obejct model that you create or deploy.
 
+* Pod containers will share the same Network namespace.
+* Pod containers have the same loopback netwrok interface.
+
+
+### kubectl basic
+
+kubectl run [pod-name] --image=nginx:alpine
+
+kubectl get pods
+
+kubectl port-forward [pod-name] <external-port>:<container-port>
+
+kubectl delete pod [pod-name]
+
+### Yaml based deployment
+
+
+
+
+
+
 
 
 
