@@ -122,6 +122,31 @@ ExecAction
 TCPSocketAction
 Http probe
 
+The liveness check checks if the container is running or not if not it will restart the container. In case of the 
+
+## Deployments and Replica set
+
+A replica set is the declaritive way to manage the pods. Deployements are on top of replica set.
+
+Deployments and ReplicaSets ensure Pods stay running and can be used to scale Pods.
+
+Role of Replicaset
+
+* self healing mechanism
+* Ensure the requested number of Pods are available
+* Provide fault tolerance
+* Can be used to scale horizontally.
+* Relies on Pod template.
+
+
+Deployment Options:
+
+- Rolling Updates
+- Blue Green deployment
+- Canary Deployment
+- Rollbacks
+
+
 
 
 
