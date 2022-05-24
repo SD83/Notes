@@ -80,7 +80,47 @@ kubectl delete pod [pod-name]
 
 ### Yaml based deployment
 
+![Event Hub](Images/podyml.jpg)
 
+```yml
+apiVersion : v1
+kind: pod
+metadata :
+  name: my-nginx
+spec:
+  containers:
+  - name: my-nginx
+    image: nginx:alpine
+```
+*This is the dry run option for validation*
+
+kubectl create -f nginx.pod.yml --dry-run --validate=true
+
+*The final action command*
+
+kubectl create -f nginx.pod.yml
+
+kubectl apply -f nginx.pod.yml
+
+***If we use apply then it will create or update***
+
+k exec my-nginx -it sh
+
+
+## Pod Health
+
+Kubernetes uses Probe to check the health of the Pod
+
+There are two types of probes
+
+1. Liveness probes
+2. Readiness probes
+
+we can do 
+
+ExecAction
+TCPSocketAction
+Http probe
 
 
 
