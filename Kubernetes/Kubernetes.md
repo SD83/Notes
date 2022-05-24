@@ -141,7 +141,7 @@ Role of Replicaset
 
 Deployment Options:
 
-- Rolling Updates
+- Rolling Updates - New one is deployed parallel to the existing ones and old ones are deleted slowly
 - Blue Green deployment
 - Canary Deployment
 - Rollbacks
