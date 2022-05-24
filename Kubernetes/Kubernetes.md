@@ -141,21 +141,38 @@ Role of Replicaset
 
 Deployment Options:
 
-- Rolling Updates - New one is deployed parallel to the existing ones and old ones are deleted slowly
+- Rolling Updates - New one is deployed parallel to the existing ones and old ones are deleted slowly. This is the deault.
 - Blue Green deployment
 - Canary Deployment
 - Rollbacks
 
 
+**When a browser makes a connection it creates a single connection so it will always connect to the same node**
+
+
+## Services
+
+A service provides a single point of entry for accessing one or more Pods. 
+- Since pods live and die we can not rely on their ip address. That is why we need services to maintain the network. 
+- A pod gets it's IP address once they are scheduled so a client will never know the IP before hand.
+
+
+- The service will abstract the ip.
+- Will do the load balancing
+
+![Event Hub](Images/Services.jpg)
+
+### Service types
+
+- Cluster IP
+- NodePort
+- Load Balancer
+- ExternalName
 
 
 
-
-
-
-
-
-
-
-
-
+![Event Hub](Images/ServiceTypes.jpg)
+![Event Hub](Images/ClusterIP.jpg)
+![Event Hub](Images/NodePort.jpg)
+![Event Hub](Images/LoadBalancerservice.jpg)
+![Event Hub](Images/ExternalNameservice.jpg)
