@@ -176,3 +176,21 @@ A service provides a single point of entry for accessing one or more Pods.
 ![Event Hub](Images/NodePort.jpg)
 ![Event Hub](Images/LoadBalancerservice.jpg)
 ![Event Hub](Images/ExternalNameservice.jpg)
+
+## Create Services
+
+### Structure of a service
+
+![Event Hub](Images/Service_Structure.JPG)
+
+each service gets DNS entry
+
+## Kubernetes Archietcture 
+
+Master node is also called Control Plane Node
+
+![Event Hub](Images/ControlPlaneComponents.JPG)
+
+![Event Hub](Images/NodeComponents.JPG)
+
+![Event Hub](Images/Nodes.JPG)
