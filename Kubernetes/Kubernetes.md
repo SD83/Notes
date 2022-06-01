@@ -194,3 +194,13 @@ Master node is also called Control Plane Node
 ![Event Hub](Images/NodeComponents.JPG)
 
 ![Event Hub](Images/Nodes.JPG)
+
+![Event Hub](Images/NodeNetworking.JPG)
+
+## Path to Kubernetes Repository
+
+https://github.com/kubernetes/kubernetes
+
+
+kubernetes from apt
+
